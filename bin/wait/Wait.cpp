@@ -1,4 +1,20 @@
-// Wait.cpp
+/*
+ * Copyright (C) 2009 Niek Linnenbank
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,8 +25,8 @@
 Wait::Wait(int argc, char **argv)
     : POSIXApplication(argc, argv)
 {
-    parser().setDescription("Wait for a background process to finish");
-    parser().registerPositional("PID", "Process ID to wait for");
+    parser().setDescription("Stop executing for some time");
+    parser().registerPositional("SECONDS", "Stop executing for the given number of seconds");
 }
 
 Wait::~Wait()
@@ -19,35 +35,22 @@ Wait::~Wait()
 
 Wait::Result Wait::exec()
 {
-    int pid = 0;
+    int sec = 0;
 
-    // Convert input to process ID
-    if ((pid = atoi(arguments().get("PID"))) <= 0)
+    // Convert input to seconds
+    if ((sec = atoi(arguments().get("SECONDS"))) <= 0)
     {
-        ERROR("invalid PID: " << arguments().get("PID"));
+        ERROR("invalid wait time `" << arguments().get("SECONDS") << "'");
         return InvalidArgument;
     }
 
-    // Use waitpid to wait for the specified process to exit
-    int status;
-    int result = waitpid(pid, &status, 0);
-
-    if (result == -1)
+    // Wait now
+    if (sleep(sec) != 0)
     {
-        ERROR("failed to wait for PID " << pid << ": " << strerror(errno));
+        ERROR("failed to wait: " << strerror(errno));
         return IOError;
-    }
-
-    if (WIFEXITED(status))
-    {
-        INFO("Process " << pid << " exited with status " << WEXITSTATUS(status));
-    }
-    else
-    {
-        INFO("Process " << pid << " did not exit normally");
     }
 
     // Done
     return Success;
 }
-
