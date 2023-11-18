@@ -36,7 +36,10 @@ Renice::Renice(int argc, char **argv)
 
 Renice::Result Renice::exec()
 {
+    //retrieve priority
     u8 p = atoi(arguments().get("PRIORITY"));
+
+    //retrieve process ID
     ProcessID pid = atoi(arguments().get("PID"));
     
     ProcessClient process;

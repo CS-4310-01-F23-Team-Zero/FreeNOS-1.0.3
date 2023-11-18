@@ -97,10 +97,9 @@ Process * ProcessManager::get(const ProcessID id)
     return m_procs.get(id);
 }
 
+//Set priority
 ProcessManager::Result ProcessManager::setPriority(const ProcessID id, u8 p)
 {
-
-
     Process * proc = m_procs.get(id);
     if (!proc)
     {
