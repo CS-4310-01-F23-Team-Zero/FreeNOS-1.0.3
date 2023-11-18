@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/ArrayTest" name="/test/lib/libstd/ArrayTest">
+<testsuite id="/test/lib/libstd/ArrayTest" name="/test/lib/libstd/ArrayTest" tests="8">
+<testcase id="/test/lib/libstd/ArrayTest.ArrayConstruct" name="/test/lib/libstd/ArrayTest.ArrayConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayOfStrings" name="/test/lib/libstd/ArrayTest.ArrayOfStrings">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayFill" name="/test/lib/libstd/ArrayTest.ArrayFill">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayOverflow" name="/test/lib/libstd/ArrayTest.ArrayOverflow">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayOverwrite" name="/test/lib/libstd/ArrayTest.ArrayOverwrite">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayPutSeq" name="/test/lib/libstd/ArrayTest.ArrayPutSeq">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayPutRandom" name="/test/lib/libstd/ArrayTest.ArrayPutRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ArrayTest.ArrayCompare" name="/test/lib/libstd/ArrayTest.ArrayCompare">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (8 passed 0 failed 0 skipped 8 total) -->

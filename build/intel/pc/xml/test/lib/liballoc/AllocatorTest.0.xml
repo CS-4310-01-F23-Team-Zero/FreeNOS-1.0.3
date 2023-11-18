@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/liballoc/AllocatorTest" name="/test/lib/liballoc/AllocatorTest">
+<testsuite id="/test/lib/liballoc/AllocatorTest" name="/test/lib/liballoc/AllocatorTest" tests="4">
+<testcase id="/test/lib/liballoc/AllocatorTest.AllocatorConstruct" name="/test/lib/liballoc/AllocatorTest.AllocatorConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/AllocatorTest.AllocatorDefault" name="/test/lib/liballoc/AllocatorTest.AllocatorDefault">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/AllocatorTest.AllocatorParent" name="/test/lib/liballoc/AllocatorTest.AllocatorParent">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/AllocatorTest.AllocatorAligned" name="/test/lib/liballoc/AllocatorTest.AllocatorAligned">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (4 passed 0 failed 0 skipped 4 total) -->

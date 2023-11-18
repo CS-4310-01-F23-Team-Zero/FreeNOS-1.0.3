@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libfs/FileSystemPathTest" name="/test/lib/libfs/FileSystemPathTest">
+<testsuite id="/test/lib/libfs/FileSystemPathTest" name="/test/lib/libfs/FileSystemPathTest" tests="2">
+<testcase id="/test/lib/libfs/FileSystemPathTest.FileSystemPathConstruct" name="/test/lib/libfs/FileSystemPathTest.FileSystemPathConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemPathTest.FileSystemPathSplit" name="/test/lib/libfs/FileSystemPathTest.FileSystemPathSplit">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/IndexTest" name="/test/lib/libstd/IndexTest">
+<testsuite id="/test/lib/libstd/IndexTest" name="/test/lib/libstd/IndexTest" tests="5">
+<testcase id="/test/lib/libstd/IndexTest.IndexConstruct" name="/test/lib/libstd/IndexTest.IndexConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/IndexTest.IndexInsert" name="/test/lib/libstd/IndexTest.IndexInsert">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/IndexTest.IndexRemove" name="/test/lib/libstd/IndexTest.IndexRemove">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/IndexTest.IndexDeleteAll" name="/test/lib/libstd/IndexTest.IndexDeleteAll">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/IndexTest.IndexContains" name="/test/lib/libstd/IndexTest.IndexContains">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (5 passed 0 failed 0 skipped 5 total) -->

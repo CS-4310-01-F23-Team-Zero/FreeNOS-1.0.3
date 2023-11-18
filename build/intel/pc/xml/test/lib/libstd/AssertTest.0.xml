@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/AssertTest" name="/test/lib/libstd/AssertTest">
+<testsuite id="/test/lib/libstd/AssertTest" name="/test/lib/libstd/AssertTest" tests="1">
+<testcase id="/test/lib/libstd/AssertTest.AssertCallsFatal" name="/test/lib/libstd/AssertTest.AssertCallsFatal">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (1 passed 0 failed 0 skipped 1 total) -->

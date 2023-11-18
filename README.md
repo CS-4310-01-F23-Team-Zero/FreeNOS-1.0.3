@@ -1,1 +1,3 @@
-# 
+# Project 2: Wait For It...
+Andrew Vu, Nathan Chen
+

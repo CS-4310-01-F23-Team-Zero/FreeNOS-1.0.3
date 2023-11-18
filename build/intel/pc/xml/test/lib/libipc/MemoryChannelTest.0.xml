@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libipc/MemoryChannelTest" name="/test/lib/libipc/MemoryChannelTest">
+<testsuite id="/test/lib/libipc/MemoryChannelTest" name="/test/lib/libipc/MemoryChannelTest" tests="7">
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelConstruct" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelSetVirtual" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelSetVirtual">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteSingle" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteSingle">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteRandom" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteEmpty" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteEmpty">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteFull" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelReadWriteFull">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/MemoryChannelTest.MemoryChannelFlush" name="/test/lib/libipc/MemoryChannelTest.MemoryChannelFlush">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (7 passed 0 failed 0 skipped 7 total) -->

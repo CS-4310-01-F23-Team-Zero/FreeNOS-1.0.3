@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/server/filesystem/tmp/TmpFileSystemTest" name="/test/server/filesystem/tmp/TmpFileSystemTest">
+<testsuite id="/test/server/filesystem/tmp/TmpFileSystemTest" name="/test/server/filesystem/tmp/TmpFileSystemTest" tests="2">
+<testcase id="/test/server/filesystem/tmp/TmpFileSystemTest.TmpFileSystemReadWrite" name="/test/server/filesystem/tmp/TmpFileSystemTest.TmpFileSystemReadWrite">
+<!-- OK -->
+</testcase>
+<testcase id="/test/server/filesystem/tmp/TmpFileSystemTest.TmpFileSystemRestart" name="/test/server/filesystem/tmp/TmpFileSystemTest.TmpFileSystemRestart">
+[Notice] lib/libfs/FileSystemServer.cpp:588 mountHandler -- remounted /tmp
+. ..
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

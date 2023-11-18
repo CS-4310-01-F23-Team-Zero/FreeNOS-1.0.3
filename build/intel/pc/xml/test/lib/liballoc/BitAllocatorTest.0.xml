@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/liballoc/BitAllocatorTest" name="/test/lib/liballoc/BitAllocatorTest">
+<testsuite id="/test/lib/liballoc/BitAllocatorTest" name="/test/lib/liballoc/BitAllocatorTest" tests="8">
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitConstruct" name="/test/lib/liballoc/BitAllocatorTest.BitConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitAllocateChunks" name="/test/lib/liballoc/BitAllocatorTest.BitAllocateChunks">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitAllocateBytes" name="/test/lib/liballoc/BitAllocatorTest.BitAllocateBytes">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitAllocateAlignment" name="/test/lib/liballoc/BitAllocatorTest.BitAllocateAlignment">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitAllocateStartFrom" name="/test/lib/liballoc/BitAllocatorTest.BitAllocateStartFrom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitAllocateSpecific" name="/test/lib/liballoc/BitAllocatorTest.BitAllocateSpecific">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitAllocateFull" name="/test/lib/liballoc/BitAllocatorTest.BitAllocateFull">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BitAllocatorTest.BitRelease" name="/test/lib/liballoc/BitAllocatorTest.BitRelease">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (8 passed 0 failed 0 skipped 8 total) -->

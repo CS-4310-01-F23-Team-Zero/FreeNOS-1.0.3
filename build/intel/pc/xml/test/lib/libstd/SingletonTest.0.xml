@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/SingletonTest" name="/test/lib/libstd/SingletonTest">
+<testsuite id="/test/lib/libstd/SingletonTest" name="/test/lib/libstd/SingletonTest" tests="2">
+<testcase id="/test/lib/libstd/SingletonTest.StrictSingletonInstance" name="/test/lib/libstd/SingletonTest.StrictSingletonInstance">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/SingletonTest.WeakSingletonInstance" name="/test/lib/libstd/SingletonTest.WeakSingletonInstance">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

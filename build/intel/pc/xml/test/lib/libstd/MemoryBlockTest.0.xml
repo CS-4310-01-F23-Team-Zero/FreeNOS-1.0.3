@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/MemoryBlockTest" name="/test/lib/libstd/MemoryBlockTest">
+<testsuite id="/test/lib/libstd/MemoryBlockTest" name="/test/lib/libstd/MemoryBlockTest" tests="5">
+<testcase id="/test/lib/libstd/MemoryBlockTest.InitData" name="/test/lib/libstd/MemoryBlockTest.InitData">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/MemoryBlockTest.CopyData" name="/test/lib/libstd/MemoryBlockTest.CopyData">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/MemoryBlockTest.CopyString" name="/test/lib/libstd/MemoryBlockTest.CopyString">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/MemoryBlockTest.CompareData" name="/test/lib/libstd/MemoryBlockTest.CompareData">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/MemoryBlockTest.CompareString" name="/test/lib/libstd/MemoryBlockTest.CompareString">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (5 passed 0 failed 0 skipped 5 total) -->

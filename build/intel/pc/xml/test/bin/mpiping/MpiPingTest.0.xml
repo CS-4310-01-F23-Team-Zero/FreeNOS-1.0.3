@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/bin/mpiping/MpiPingTest" name="/test/bin/mpiping/MpiPingTest">
+<testsuite id="/test/bin/mpiping/MpiPingTest" name="/test/bin/mpiping/MpiPingTest" tests="1">
+<testcase id="/test/bin/mpiping/MpiPingTest.RunMpiPing" name="/test/bin/mpiping/MpiPingTest.RunMpiPing">
+[Notice] bin/mpiping/MpiPing.cpp:65 exec -- ping 3 cores
+[Notice] bin/mpiping/MpiPing.cpp:84 exec -- pong received from core1
+[Notice] bin/mpiping/MpiPing.cpp:84 exec -- pong received from core2
+[Notice] bin/mpiping/MpiPing.cpp:84 exec -- pong received from core3
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (1 passed 0 failed 0 skipped 1 total) -->

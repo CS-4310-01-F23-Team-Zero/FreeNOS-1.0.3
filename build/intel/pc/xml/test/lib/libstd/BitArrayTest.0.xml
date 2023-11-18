@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/BitArrayTest" name="/test/lib/libstd/BitArrayTest">
+<testsuite id="/test/lib/libstd/BitArrayTest" name="/test/lib/libstd/BitArrayTest" tests="11">
+<testcase id="/test/lib/libstd/BitArrayTest.BitArrayConstruct" name="/test/lib/libstd/BitArrayTest.BitArrayConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetOne" name="/test/lib/libstd/BitArrayTest.BitArraySetOne">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetRandom" name="/test/lib/libstd/BitArrayTest.BitArraySetRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetMultiple" name="/test/lib/libstd/BitArrayTest.BitArraySetMultiple">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetRange" name="/test/lib/libstd/BitArrayTest.BitArraySetRange">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetNextRandom" name="/test/lib/libstd/BitArrayTest.BitArraySetNextRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetNextOverwrite" name="/test/lib/libstd/BitArrayTest.BitArraySetNextOverwrite">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetNextExact" name="/test/lib/libstd/BitArrayTest.BitArraySetNextExact">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetNextOutOfMemory" name="/test/lib/libstd/BitArrayTest.BitArraySetNextOutOfMemory">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArrayClear" name="/test/lib/libstd/BitArrayTest.BitArrayClear">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/BitArrayTest.BitArraySetArray" name="/test/lib/libstd/BitArrayTest.BitArraySetArray">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (11 passed 0 failed 0 skipped 11 total) -->

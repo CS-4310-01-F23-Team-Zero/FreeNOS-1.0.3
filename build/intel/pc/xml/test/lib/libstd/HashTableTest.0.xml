@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/HashTableTest" name="/test/lib/libstd/HashTableTest">
+<testsuite id="/test/lib/libstd/HashTableTest" name="/test/lib/libstd/HashTableTest" tests="10">
+<testcase id="/test/lib/libstd/HashTableTest.HashTableConstruct" name="/test/lib/libstd/HashTableTest.HashTableConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableConstructInts" name="/test/lib/libstd/HashTableTest.HashTableConstructInts">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableInsert" name="/test/lib/libstd/HashTableTest.HashTableInsert">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableInsertOverwrite" name="/test/lib/libstd/HashTableTest.HashTableInsertOverwrite">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableInsertRandom" name="/test/lib/libstd/HashTableTest.HashTableInsertRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableAppend" name="/test/lib/libstd/HashTableTest.HashTableAppend">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableRemove" name="/test/lib/libstd/HashTableTest.HashTableRemove">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableRemoveMultiple" name="/test/lib/libstd/HashTableTest.HashTableRemoveMultiple">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableGet" name="/test/lib/libstd/HashTableTest.HashTableGet">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashTableTest.HashTableIterate" name="/test/lib/libstd/HashTableTest.HashTableIterate">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (10 passed 0 failed 0 skipped 10 total) -->

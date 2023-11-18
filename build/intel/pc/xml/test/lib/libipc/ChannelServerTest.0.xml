@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libipc/ChannelServerTest" name="/test/lib/libipc/ChannelServerTest">
+<testsuite id="/test/lib/libipc/ChannelServerTest" name="/test/lib/libipc/ChannelServerTest" tests="6">
+<testcase id="/test/lib/libipc/ChannelServerTest.ChannelServerConstruct" name="/test/lib/libipc/ChannelServerTest.ChannelServerConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelServerTest.ChannelServerRecoverChannels" name="/test/lib/libipc/ChannelServerTest.ChannelServerRecoverChannels">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelServerTest.ChannelServerReadChannels" name="/test/lib/libipc/ChannelServerTest.ChannelServerReadChannels">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelServerTest.ChannelServerShareCreated" name="/test/lib/libipc/ChannelServerTest.ChannelServerShareCreated">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelServerTest.ChannelServerInterruptEvent" name="/test/lib/libipc/ChannelServerTest.ChannelServerInterruptEvent">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelServerTest.ChannelServerProcessTerminated" name="/test/lib/libipc/ChannelServerTest.ChannelServerProcessTerminated">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (6 passed 0 failed 0 skipped 6 total) -->

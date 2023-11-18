@@ -1,0 +1,48 @@
+#
+# Copyright (C) 2015 Niek Linnenbank
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+Import('*')
+
+SubDirectories()
+
+env = build_env.Clone()
+env.UseLibraries([ 'libposix', 'libapp', 'liballoc', 'libstd', 'libfs',
+                   'libexec', 'libarch', 'libtest', 'libipc', 'libruntime' ])
+env.UseLibraries([ 'libtest', 'libapp', 'libstd' ], 'host')
+env.UseServers([ 'terminal', 'filesystem' ])
+
+env.TargetHostProgram('run', ['Main.cpp'])
+
+if env['ARCH'] == 'host':
+
+    env.Targets(test = env['BUILDROOT'] + '/test/run')
+    env.Depends('test', '#' + env['BUILDROOT'] + '/server/datastore/server')
+    env.Depends('test', '.')
+
+    env.LocalTester(xml_test = env['BUILDROOT'] + '/test/run ' + env['BUILDROOT'] + '/test --xml')
+    env.Depends('xml_test', '#' + env['BUILDROOT'] + '/server/datastore/server')
+    env.Depends('xml_test', '.')
+
+    valgrind_cmd = "valgrind --leak-check=full --leak-resolution=high --trace-children=yes "
+    env.Targets(valgrind = valgrind_cmd + env['BUILDROOT'] + "/test/run")
+    env.Depends('valgrind', '#' + env['BUILDROOT'] + '/server/datastore/server')
+    env.Depends('valgrind', '.')
+
+    env.Targets(valgrind_xml = valgrind_cmd + "--xml=yes --xml-file='%p.memcheck' " + \
+                env['BUILDROOT'] + "/test/run")
+    env.Depends('valgrind_xml', '#' + env['BUILDROOT'] + '/server/datastore/server')
+    env.Depends('valgrind_xml', '.')

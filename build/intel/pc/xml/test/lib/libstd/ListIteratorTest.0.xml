@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/ListIteratorTest" name="/test/lib/libstd/ListIteratorTest">
+<testsuite id="/test/lib/libstd/ListIteratorTest" name="/test/lib/libstd/ListIteratorTest" tests="8">
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorConstruct" name="/test/lib/libstd/ListIteratorTest.ListIteratorConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorCurrent" name="/test/lib/libstd/ListIteratorTest.ListIteratorCurrent">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorNext" name="/test/lib/libstd/ListIteratorTest.ListIteratorNext">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveFirst" name="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveFirst">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveLast" name="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveLast">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveSingle" name="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveSingle">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveAll" name="/test/lib/libstd/ListIteratorTest.ListIteratorRemoveAll">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListIteratorTest.ListIteratorReset" name="/test/lib/libstd/ListIteratorTest.ListIteratorReset">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (8 passed 0 failed 0 skipped 8 total) -->

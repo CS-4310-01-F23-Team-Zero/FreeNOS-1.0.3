@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/VectorTest" name="/test/lib/libstd/VectorTest">
+<testsuite id="/test/lib/libstd/VectorTest" name="/test/lib/libstd/VectorTest" tests="10">
+<testcase id="/test/lib/libstd/VectorTest.VectorConstruct" name="/test/lib/libstd/VectorTest.VectorConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorOfStrings" name="/test/lib/libstd/VectorTest.VectorOfStrings">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorFill" name="/test/lib/libstd/VectorTest.VectorFill">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorResize" name="/test/lib/libstd/VectorTest.VectorResize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorPutMultiple" name="/test/lib/libstd/VectorTest.VectorPutMultiple">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorPutSeq" name="/test/lib/libstd/VectorTest.VectorPutSeq">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorPutRandom" name="/test/lib/libstd/VectorTest.VectorPutRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorRemoveOne" name="/test/lib/libstd/VectorTest.VectorRemoveOne">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorClear" name="/test/lib/libstd/VectorTest.VectorClear">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/VectorTest.VectorCompare" name="/test/lib/libstd/VectorTest.VectorCompare">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (10 passed 0 failed 0 skipped 10 total) -->

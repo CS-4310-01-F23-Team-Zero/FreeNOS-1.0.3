@@ -1,0 +1,592 @@
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wall ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_0.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_0.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_0_e1a22b8b58967fb17c74a9d72ad433ed" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_0_e1a22b8b58967fb17c74a9d72ad433ed
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wextra ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_1.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_1.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_1_b5b8fcc4d2be23e6addb4fcc98b64ff0" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_1_b5b8fcc4d2be23e6addb4fcc98b64ff0
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -nostdinc ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_2.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_2.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_2_1f6c47b6cf10ef2172561211648eda93" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_2_1f6c47b6cf10ef2172561211648eda93
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-stack-protector ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_3.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_3.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_3_fdf6a074c582187946c8b5133e252358" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_3_fdf6a074c582187946c8b5133e252358
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-builtin ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_4.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_4.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_4_b159b590c1844264db68c5954f82a921" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_4_b159b590c1844264db68c5954f82a921
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-pie ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_5.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_5.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_5_1a92723386aac300d1d97378d1fd4982" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_5_1a92723386aac300d1d97378d1fd4982
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-write-strings ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_6.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_6.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_6_4c029604ca613298284f35b39c414dad" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_6_4c029604ca613298284f35b39c414dad
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-unused-parameter ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_7.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_7.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_7.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_7_4f90cb43fa3b6d0d6ade89347952ab19" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_7_4f90cb43fa3b6d0d6ade89347952ab19
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-ignored-qualifiers ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_8.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_8.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_8.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_8_7ae80273006e3e5c7dbc3d4567c82112" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_8_7ae80273006e3e5c7dbc3d4567c82112
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-pragmas ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_9.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_9.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_9.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_9_a0d5faa97edd9190d1f0b693b8b696a4" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_9_a0d5faa97edd9190d1f0b693b8b696a4
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-cast-function-type ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_10.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_10.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_10.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_10_514608a0a5f9cb42a42294eda67aa014" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_10_514608a0a5f9cb42a42294eda67aa014
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-format-truncation ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_11.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_11.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_11.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_11_1567e2acb8b49e1e698603abb70be54b" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_11_1567e2acb8b49e1e698603abb70be54b
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -g3 ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_12.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_12.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_12.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_12_f8bbf261561554f1f2c3338fe904ec0c" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_12_f8bbf261561554f1f2c3338fe904ec0c
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -O0 ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_13.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_13.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_13.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_13.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_13_ebbe6e56a6c2af0a15379ce252bcf84d" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_13_ebbe6e56a6c2af0a15379ce252bcf84d
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -D__ASSERT__ ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_14.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_14.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_14.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_14.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_14_38405ee1e5dc6e8396df38ebf3ded281" is up to date.
+scons: Configure: The original builder output was:
+  |  LD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_14_38405ee1e5dc6e8396df38ebf3ded281
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-rtti ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_15.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_15.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_15_075a1ef420ee818de343f304fc00f4a4.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_15_075a1ef420ee818de343f304fc00f4a4.o
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-exceptions ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_16.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_16.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_16_3771d8e175ec90e86f91e7bc141dabda.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_16_3771d8e175ec90e86f91e7bc141dabda.o
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-sized-deallocation ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_17.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_17.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_17_31ff59d3f36b7b9292fef79a2cca7327.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_17_31ff59d3f36b7b9292fef79a2cca7327.o
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-unknown-pragmas ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_18.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_18.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_18_48d71cfd23b1b36ce511bf24b6ff47c1.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_18_48d71cfd23b1b36ce511bf24b6ff47c1.o
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -std=c++03 ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_19.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_19.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_19_159839407fc95a26e170b6715853f5e0.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_19_159839407fc95a26e170b6715853f5e0.o
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -ffunction-sections ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_20.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_20.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_20_b07272bb4634d372ca3da587ad21146e.o" is up to date.
+scons: Configure: The original builder output was:
+  |  CXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_20_b07272bb4634d372ca3da587ad21146e.o
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wall ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_21.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_21.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_21.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_21.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_21_396ca761bf5e6c75a8f4a51963535bdf" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_21_396ca761bf5e6c75a8f4a51963535bdf
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wextra ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_22.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_22.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_22.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_22.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_22_2f1b7922c970d58cce5845bde42bb60a" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_22_2f1b7922c970d58cce5845bde42bb60a
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-unused-parameter ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_23.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_23.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_23.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_23.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_23_83c1cd47c745e44723fde92e8eb63fdc" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_23_83c1cd47c745e44723fde92e8eb63fdc
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-ignored-qualifiers ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_24.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_24.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_24.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_24.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_24_88869ca8e99473befbc4fcb6baf5bff5" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_24_88869ca8e99473befbc4fcb6baf5bff5
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-format-truncation ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_25.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_25.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_25.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_25.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_25_3f42d7ebfb392905f7bf065f3ba35fd7" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_25_3f42d7ebfb392905f7bf065f3ba35fd7
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-pragmas ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_26.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_26.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_26.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_26.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_26_02867df1e72aeb91962ed6486204fb3f" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_26_02867df1e72aeb91962ed6486204fb3f
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -g3 ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_27.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_27.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_27.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_27.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_27_ac80661786fe6b1aeab2f8f5fe328467" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_27_ac80661786fe6b1aeab2f8f5fe328467
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -O0 ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_28.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_28.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_28.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_28.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_28_a7aa913c60db82dfcbf25f4d481ca4bd" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_28_a7aa913c60db82dfcbf25f4d481ca4bd
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 56:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -D__ASSERT__ ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_29.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_29.c <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_29.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCC   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_29.o
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_29_13260d73fb73b76099fed70dcd291c1e" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTLD   .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_29_13260d73fb73b76099fed70dcd291c1e
+  |
+scons: Configure: (cached) yes
+
+
+file /home/osboxes/FreeNOS/./support/scons/autoconf.py,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -std=c++03 ... 
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_30.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_30.cpp <-
+  |  |int main(int argc, char **argv){    return 0;}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_30_7155f867ef68ba889414057e57c01776.o" is up to date.
+scons: Configure: The original builder output was:
+  |  HOSTCXX  .sconf_temp/conftest_88cbe3de6c84f78d6a16a6378575352a_30_7155f867ef68ba889414057e57c01776.o
+  |
+scons: Configure: (cached) yes
+
+

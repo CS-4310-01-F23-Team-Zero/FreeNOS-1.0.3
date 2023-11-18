@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/QueueTest" name="/test/lib/libstd/QueueTest">
+<testsuite id="/test/lib/libstd/QueueTest" name="/test/lib/libstd/QueueTest" tests="8">
+<testcase id="/test/lib/libstd/QueueTest.QueueConstruct" name="/test/lib/libstd/QueueTest.QueueConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueuePushPopString" name="/test/lib/libstd/QueueTest.QueuePushPopString">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueuePushPopInt" name="/test/lib/libstd/QueueTest.QueuePushPopInt">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueueCycle" name="/test/lib/libstd/QueueTest.QueueCycle">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueueFull" name="/test/lib/libstd/QueueTest.QueueFull">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueueClear" name="/test/lib/libstd/QueueTest.QueueClear">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueueContains" name="/test/lib/libstd/QueueTest.QueueContains">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/QueueTest.QueueRemove" name="/test/lib/libstd/QueueTest.QueueRemove">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (8 passed 0 failed 0 skipped 8 total) -->

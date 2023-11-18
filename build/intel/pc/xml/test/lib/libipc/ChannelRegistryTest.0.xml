@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libipc/ChannelRegistryTest" name="/test/lib/libipc/ChannelRegistryTest">
+<testsuite id="/test/lib/libipc/ChannelRegistryTest" name="/test/lib/libipc/ChannelRegistryTest" tests="3">
+<testcase id="/test/lib/libipc/ChannelRegistryTest.ChannelRegistryConstruct" name="/test/lib/libipc/ChannelRegistryTest.ChannelRegistryConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelRegistryTest.ChannelRegistryConsumer" name="/test/lib/libipc/ChannelRegistryTest.ChannelRegistryConsumer">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelRegistryTest.ChannelRegistryProducer" name="/test/lib/libipc/ChannelRegistryTest.ChannelRegistryProducer">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (3 passed 0 failed 0 skipped 3 total) -->

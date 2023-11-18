@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/MacrosTest" name="/test/lib/libstd/MacrosTest">
+<testsuite id="/test/lib/libstd/MacrosTest" name="/test/lib/libstd/MacrosTest" tests="2">
+<testcase id="/test/lib/libstd/MacrosTest.DoubleAbsolute" name="/test/lib/libstd/MacrosTest.DoubleAbsolute">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/MacrosTest.DoubleEquals" name="/test/lib/libstd/MacrosTest.DoubleEquals">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

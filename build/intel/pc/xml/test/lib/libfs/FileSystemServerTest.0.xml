@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libfs/FileSystemServerTest" name="/test/lib/libfs/FileSystemServerTest">
+<testsuite id="/test/lib/libfs/FileSystemServerTest" name="/test/lib/libfs/FileSystemServerTest" tests="7">
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerConstruct" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerMount" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerMount">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerRegisterFile" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerRegisterFile">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerStatFile" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerStatFile">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerReadFile" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerReadFile">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerWriteFile" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerWriteFile">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libfs/FileSystemServerTest.FileSystemServerDeleteFile" name="/test/lib/libfs/FileSystemServerTest.FileSystemServerDeleteFile">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (7 passed 0 failed 0 skipped 7 total) -->

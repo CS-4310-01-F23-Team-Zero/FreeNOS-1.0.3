@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/FactoryTest" name="/test/lib/libstd/FactoryTest">
+<testsuite id="/test/lib/libstd/FactoryTest" name="/test/lib/libstd/FactoryTest" tests="2">
+<testcase id="/test/lib/libstd/FactoryTest.FactoryCreate" name="/test/lib/libstd/FactoryTest.FactoryCreate">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/FactoryTest.AbstractFactoryCreate" name="/test/lib/libstd/FactoryTest.AbstractFactoryCreate">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

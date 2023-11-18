@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/HashIteratorTest" name="/test/lib/libstd/HashIteratorTest">
+<testsuite id="/test/lib/libstd/HashIteratorTest" name="/test/lib/libstd/HashIteratorTest" tests="8">
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorConstruct" name="/test/lib/libstd/HashIteratorTest.HashIteratorConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorCurrent" name="/test/lib/libstd/HashIteratorTest.HashIteratorCurrent">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorNext" name="/test/lib/libstd/HashIteratorTest.HashIteratorNext">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveFirst" name="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveFirst">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveLast" name="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveLast">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveSingle" name="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveSingle">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveAll" name="/test/lib/libstd/HashIteratorTest.HashIteratorRemoveAll">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/HashIteratorTest.HashIteratorReset" name="/test/lib/libstd/HashIteratorTest.HashIteratorReset">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (8 passed 0 failed 0 skipped 8 total) -->

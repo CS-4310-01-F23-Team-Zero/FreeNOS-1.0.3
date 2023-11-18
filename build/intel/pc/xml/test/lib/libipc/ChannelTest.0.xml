@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libipc/ChannelTest" name="/test/lib/libipc/ChannelTest">
+<testsuite id="/test/lib/libipc/ChannelTest" name="/test/lib/libipc/ChannelTest" tests="2">
+<testcase id="/test/lib/libipc/ChannelTest.ChannelConstruct" name="/test/lib/libipc/ChannelTest.ChannelConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libipc/ChannelTest.ChannelMessageSize" name="/test/lib/libipc/ChannelTest.ChannelMessageSize">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/server/network/loopback/LoopbackTest" name="/test/server/network/loopback/LoopbackTest">
+<testsuite id="/test/server/network/loopback/LoopbackTest" name="/test/server/network/loopback/LoopbackTest" tests="4">
+<testcase id="/test/server/network/loopback/LoopbackTest.LoopbackInitialize" name="/test/server/network/loopback/LoopbackTest.LoopbackInitialize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/server/network/loopback/LoopbackTest.LoopbackUdpPing" name="/test/server/network/loopback/LoopbackTest.LoopbackUdpPing">
+<!-- OK -->
+</testcase>
+<testcase id="/test/server/network/loopback/LoopbackTest.LoopbackArpPing" name="/test/server/network/loopback/LoopbackTest.LoopbackArpPing">
+Sending ARP request to 127.0.0.1
+Received ARP response for: 0x11:0x22:0x33:0x44:0x55:0x66:
+<!-- OK -->
+</testcase>
+<testcase id="/test/server/network/loopback/LoopbackTest.LoopbackIcmpPing" name="/test/server/network/loopback/LoopbackTest.LoopbackIcmpPing">
+Sending ICMP request to 127.0.0.1
+Received ICMP response with id=1 sequence=1
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (4 passed 0 failed 0 skipped 4 total) -->

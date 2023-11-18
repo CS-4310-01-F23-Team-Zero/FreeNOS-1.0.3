@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/StringTest" name="/test/lib/libstd/StringTest">
+<testsuite id="/test/lib/libstd/StringTest" name="/test/lib/libstd/StringTest" tests="30">
+<testcase id="/test/lib/libstd/StringTest.StringConstructEmpty" name="/test/lib/libstd/StringTest.StringConstructEmpty">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringConstructAlloc" name="/test/lib/libstd/StringTest.StringConstructAlloc">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringConstructConstant" name="/test/lib/libstd/StringTest.StringConstructConstant">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringConstructRandom" name="/test/lib/libstd/StringTest.StringConstructRandom">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringConstructCopy" name="/test/lib/libstd/StringTest.StringConstructCopy">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringConstructInt" name="/test/lib/libstd/StringTest.StringConstructInt">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringLength" name="/test/lib/libstd/StringTest.StringLength">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringResize" name="/test/lib/libstd/StringTest.StringResize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringResizeChop" name="/test/lib/libstd/StringTest.StringResizeChop">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringResizeAssign" name="/test/lib/libstd/StringTest.StringResizeAssign">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringRead" name="/test/lib/libstd/StringTest.StringRead">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringContains" name="/test/lib/libstd/StringTest.StringContains">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringStartsWith" name="/test/lib/libstd/StringTest.StringStartsWith">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringEndsWith" name="/test/lib/libstd/StringTest.StringEndsWith">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringCompare" name="/test/lib/libstd/StringTest.StringCompare">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringMatch" name="/test/lib/libstd/StringTest.StringMatch">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSub" name="/test/lib/libstd/StringTest.StringSub">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringPad" name="/test/lib/libstd/StringTest.StringPad">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringTrim" name="/test/lib/libstd/StringTest.StringTrim">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringUpper" name="/test/lib/libstd/StringTest.StringUpper">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringLower" name="/test/lib/libstd/StringTest.StringLower">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSplitChar" name="/test/lib/libstd/StringTest.StringSplitChar">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSplitCharEmpty" name="/test/lib/libstd/StringTest.StringSplitCharEmpty">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSplitStr" name="/test/lib/libstd/StringTest.StringSplitStr">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSplitNone" name="/test/lib/libstd/StringTest.StringSplitNone">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringToLong" name="/test/lib/libstd/StringTest.StringToLong">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSetSigned" name="/test/lib/libstd/StringTest.StringSetSigned">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringSetUnsigned" name="/test/lib/libstd/StringTest.StringSetUnsigned">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringShift" name="/test/lib/libstd/StringTest.StringShift">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/StringTest.StringShiftNumberBase" name="/test/lib/libstd/StringTest.StringShiftNumberBase">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (30 passed 0 failed 0 skipped 30 total) -->

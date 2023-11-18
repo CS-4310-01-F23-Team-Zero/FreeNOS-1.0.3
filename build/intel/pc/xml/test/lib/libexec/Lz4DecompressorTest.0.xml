@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libexec/Lz4DecompressorTest" name="/test/lib/libexec/Lz4DecompressorTest">
+<testsuite id="/test/lib/libexec/Lz4DecompressorTest" name="/test/lib/libexec/Lz4DecompressorTest" tests="10">
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4Construct" name="/test/lib/libexec/Lz4DecompressorTest.Lz4Construct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeSize" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeSize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeMagic" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeMagic">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeFrameVersion" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeFrameVersion">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeBlockChecksum" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeBlockChecksum">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeBlockDep" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeBlockDep">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeBlockMaxSize" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeBlockMaxSize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeContentSize" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeContentSize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeContentChecksum" name="/test/lib/libexec/Lz4DecompressorTest.Lz4InitializeContentChecksum">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libexec/Lz4DecompressorTest.Lz4DecompressConfig" name="/test/lib/libexec/Lz4DecompressorTest.Lz4DecompressConfig">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (10 passed 0 failed 0 skipped 10 total) -->

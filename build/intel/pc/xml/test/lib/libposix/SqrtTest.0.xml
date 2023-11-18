@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libposix/SqrtTest" name="/test/lib/libposix/SqrtTest">
+<testsuite id="/test/lib/libposix/SqrtTest" name="/test/lib/libposix/SqrtTest" tests="2">
+<testcase id="/test/lib/libposix/SqrtTest.SqrtPositive" name="/test/lib/libposix/SqrtTest.SqrtPositive">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libposix/SqrtTest.SqrtZero" name="/test/lib/libposix/SqrtTest.SqrtZero">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (2 passed 0 failed 0 skipped 2 total) -->

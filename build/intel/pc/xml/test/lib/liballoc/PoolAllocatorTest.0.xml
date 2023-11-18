@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/liballoc/PoolAllocatorTest" name="/test/lib/liballoc/PoolAllocatorTest">
+<testsuite id="/test/lib/liballoc/PoolAllocatorTest" name="/test/lib/liballoc/PoolAllocatorTest" tests="9">
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolConstruct" name="/test/lib/liballoc/PoolAllocatorTest.PoolConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolUsage" name="/test/lib/liballoc/PoolAllocatorTest.PoolUsage">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolAllocate" name="/test/lib/liballoc/PoolAllocatorTest.PoolAllocate">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolRelease" name="/test/lib/liballoc/PoolAllocatorTest.PoolRelease">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolIndex" name="/test/lib/liballoc/PoolAllocatorTest.PoolIndex">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolLayout" name="/test/lib/liballoc/PoolAllocatorTest.PoolLayout">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolPrevNext" name="/test/lib/liballoc/PoolAllocatorTest.PoolPrevNext">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolObjectSize" name="/test/lib/liballoc/PoolAllocatorTest.PoolObjectSize">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/PoolAllocatorTest.PoolObjectCount" name="/test/lib/liballoc/PoolAllocatorTest.PoolObjectCount">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (9 passed 0 failed 0 skipped 9 total) -->

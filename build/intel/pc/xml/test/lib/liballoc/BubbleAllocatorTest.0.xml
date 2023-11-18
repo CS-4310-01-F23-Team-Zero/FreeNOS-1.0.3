@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/liballoc/BubbleAllocatorTest" name="/test/lib/liballoc/BubbleAllocatorTest">
+<testsuite id="/test/lib/liballoc/BubbleAllocatorTest" name="/test/lib/liballoc/BubbleAllocatorTest" tests="5">
+<testcase id="/test/lib/liballoc/BubbleAllocatorTest.BubbleConstruct" name="/test/lib/liballoc/BubbleAllocatorTest.BubbleConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BubbleAllocatorTest.BubbleAllocate" name="/test/lib/liballoc/BubbleAllocatorTest.BubbleAllocate">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BubbleAllocatorTest.BubbleAlignment" name="/test/lib/liballoc/BubbleAllocatorTest.BubbleAlignment">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BubbleAllocatorTest.BubbleFull" name="/test/lib/liballoc/BubbleAllocatorTest.BubbleFull">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/BubbleAllocatorTest.BubbleRelease" name="/test/lib/liballoc/BubbleAllocatorTest.BubbleRelease">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (5 passed 0 failed 0 skipped 5 total) -->

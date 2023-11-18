@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libstd/ListTest" name="/test/lib/libstd/ListTest">
+<testsuite id="/test/lib/libstd/ListTest" name="/test/lib/libstd/ListTest" tests="13">
+<testcase id="/test/lib/libstd/ListTest.ListConstruct" name="/test/lib/libstd/ListTest.ListConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListOfStrings" name="/test/lib/libstd/ListTest.ListOfStrings">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListPrependEmpty" name="/test/lib/libstd/ListTest.ListPrependEmpty">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListPrepend" name="/test/lib/libstd/ListTest.ListPrepend">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListAppendEmpty" name="/test/lib/libstd/ListTest.ListAppendEmpty">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListAppend" name="/test/lib/libstd/ListTest.ListAppend">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListRemoveFirst" name="/test/lib/libstd/ListTest.ListRemoveFirst">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListRemoveLast" name="/test/lib/libstd/ListTest.ListRemoveLast">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListRemoveSingle" name="/test/lib/libstd/ListTest.ListRemoveSingle">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListRemoveMultiple" name="/test/lib/libstd/ListTest.ListRemoveMultiple">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListContains" name="/test/lib/libstd/ListTest.ListContains">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListGet" name="/test/lib/libstd/ListTest.ListGet">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libstd/ListTest.ListClear" name="/test/lib/libstd/ListTest.ListClear">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (13 passed 0 failed 0 skipped 13 total) -->

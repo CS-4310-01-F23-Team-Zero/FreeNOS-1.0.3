@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/server/datastore/DatastoreServerTest" name="/test/server/datastore/DatastoreServerTest">
+<testsuite id="/test/server/datastore/DatastoreServerTest" name="/test/server/datastore/DatastoreServerTest" tests="1">
+<testcase id="/test/server/datastore/DatastoreServerTest.DatastoreServerRegisterBuffer" name="/test/server/datastore/DatastoreServerTest.DatastoreServerRegisterBuffer">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (1 passed 0 failed 0 skipped 1 total) -->

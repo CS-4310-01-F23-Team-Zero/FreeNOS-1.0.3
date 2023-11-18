@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/liballoc/SplitAllocatorTest" name="/test/lib/liballoc/SplitAllocatorTest">
+<testsuite id="/test/lib/liballoc/SplitAllocatorTest" name="/test/lib/liballoc/SplitAllocatorTest" tests="5">
+<testcase id="/test/lib/liballoc/SplitAllocatorTest.SplitConstruct" name="/test/lib/liballoc/SplitAllocatorTest.SplitConstruct">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/SplitAllocatorTest.SplitAllocatePhysical" name="/test/lib/liballoc/SplitAllocatorTest.SplitAllocatePhysical">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/SplitAllocatorTest.SplitAllocatePhysicalVirtual" name="/test/lib/liballoc/SplitAllocatorTest.SplitAllocatePhysicalVirtual">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/SplitAllocatorTest.SplitAllocateFull" name="/test/lib/liballoc/SplitAllocatorTest.SplitAllocateFull">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/liballoc/SplitAllocatorTest.SplitAllocateRelease" name="/test/lib/liballoc/SplitAllocatorTest.SplitAllocateRelease">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (5 passed 0 failed 0 skipped 5 total) -->

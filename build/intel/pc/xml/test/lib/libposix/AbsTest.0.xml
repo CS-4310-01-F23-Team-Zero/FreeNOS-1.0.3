@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="/test/lib/libposix/AbsTest" name="/test/lib/libposix/AbsTest">
+<testsuite id="/test/lib/libposix/AbsTest" name="/test/lib/libposix/AbsTest" tests="3">
+<testcase id="/test/lib/libposix/AbsTest.AbsPositive" name="/test/lib/libposix/AbsTest.AbsPositive">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libposix/AbsTest.AbsNegative" name="/test/lib/libposix/AbsTest.AbsNegative">
+<!-- OK -->
+</testcase>
+<testcase id="/test/lib/libposix/AbsTest.AbsZero" name="/test/lib/libposix/AbsTest.AbsZero">
+<!-- OK -->
+</testcase>
+</testsuite>
+</testsuites>
+<!-- Result OK (3 passed 0 failed 0 skipped 3 total) -->
