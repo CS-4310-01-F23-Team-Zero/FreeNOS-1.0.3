@@ -54,6 +54,7 @@ ProcessList::Result ProcessList::exec()
         {
             DEBUG("PID " << pid << " state = " << *info.textState);
 
+            // Output a line
             char line[128];
             if (!arguments().get("long")) {
                 snprintf(line, sizeof(line),
@@ -63,14 +64,12 @@ ProcessList::Result ProcessList::exec()
 
             }
             else {
+                //display priority level
                 snprintf(line, sizeof(line),
                     "%3d %7d %4d %5d %8u %10s %32s\r\n",
                     pid, info.kernelState.parent,
                     0, 0, info.kernelState.priority, *info.textState, *info.command);
             }
-
-            // Output a line
-             
             out << line;
         }
     }
