@@ -58,6 +58,14 @@ Process::~Process()
     }
 }
 
+void Process::setPriority(u8 p) {
+    priority = p;
+}
+
+u8 Process::getPriority() {
+    return priority;
+}
+
 ProcessID Process::getID() const
 {
     return m_id;
