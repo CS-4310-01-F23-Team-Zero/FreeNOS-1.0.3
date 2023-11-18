@@ -39,13 +39,6 @@ Renice::Result Renice::exec()
     u8 p = atoi(arguments().get("PRIORITY"));
     ProcessID pid = atoi(arguments().get("PID"));
     
-    //String out;
-    //out << atoi(arguments().get("PID"));
-    //char line[128];
-    //out << line;
-    //out<< atoi(arguments().get("PRIORITY"));
-    //out << line;
-    //write(1, *out, out.length());
     ProcessClient process;
     const ProcessClient::Result result = process.newPrio(pid, p);
     
