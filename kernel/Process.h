@@ -113,6 +113,16 @@ class Process
     uint getWaitResult() const;
 
     /**
+     * get priority leve
+     */
+    u8 getPriority();
+
+    /**
+    * Set process priority level.
+    */
+    void setPriority(u8 p);
+
+    /**
      * Get process shares.
      *
      * @return Reference to memory shares.
@@ -241,6 +251,8 @@ class Process
      */
     void setParent(ProcessID id);
 
+ 
+
   protected:
 
     /** Process Identifier */
@@ -272,6 +284,9 @@ class Process
 
     /** Number of wakeups received */
     Size m_wakeups;
+
+    /** Priority Level 1-5 default = 3 */
+    u8 priority;
 
     /**
      * Sleep timer value.

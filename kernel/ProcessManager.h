@@ -93,6 +93,8 @@ class ProcessManager
      */
     Process * get(const ProcessID id);
 
+    Result setPriority(const ProcessID id, u8 p);
+
     /**
      * Remove a Process.
      */

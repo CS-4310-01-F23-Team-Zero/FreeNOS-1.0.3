@@ -1,3 +1,3 @@
-# Project 2: Wait For It...
+# Project 3: Prioritize It
 Andrew Vu, Nathan Chen
 

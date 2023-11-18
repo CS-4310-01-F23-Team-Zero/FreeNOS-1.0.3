@@ -24,6 +24,28 @@
 #include <Log.h>
 #include "ProcessCtl.h"
 
+//API::Result ProcessCtl(const ProcessID procID, u8 p) {
+//    
+//    const Arch::MemoryMap map;
+//    Process* proc = ZERO;
+//    ProcessInfo* info = (ProcessInfo*)addr;
+//    ProcessManager* procs = Kernel::instance()->getProcessManager();
+//    Timer* timer;
+//
+//    if (action != GetPID && action != Spawn)
+//    {
+//        if (procID == SELF)
+//            proc = procs->current();
+//        else if (!(proc = procs->get(procID)))
+//            return API::NotFound;
+//    }
+//
+//
+//    proc->setPriority(p);
+//    return Success;
+//    
+//}
+
 API::Result ProcessCtlHandler(const ProcessID procID,
                               const ProcessOperation action,
                               const Address addr,
@@ -31,7 +53,9 @@ API::Result ProcessCtlHandler(const ProcessID procID,
 {
     const Arch::MemoryMap map;
     Process *proc = ZERO;
-    ProcessInfo *info = (ProcessInfo *) addr;
+
+    ProcessInfo* info = (ProcessInfo*)addr;
+    
     ProcessManager *procs = Kernel::instance()->getProcessManager();
     Timer *timer;
 
@@ -135,6 +159,7 @@ API::Result ProcessCtlHandler(const ProcessID procID,
         info->id    = proc->getID();
         info->state = proc->getState();
         info->parent = proc->getParent();
+        info->priority = proc->getPriority();
         break;
 
     case WaitPID:
@@ -177,10 +202,23 @@ API::Result ProcessCtlHandler(const ProcessID procID,
         if (procs->sleep((const Timer::Info *)addr) == ProcessManager::Success)
             procs->schedule();
         break;
+    
+    case NewPrio:
+        // Only sleeps the process if no pending wakeups
+
+        if (procs->setPriority(procID, addr) != ProcessManager::Success) {
+
+            return API::NotFound;
+        }
+        break;
+    
     }
+
+
 
     return API::Success;
 }
+
 
 Log & operator << (Log &log, ProcessOperation op)
 {
@@ -199,6 +237,7 @@ Log & operator << (Log &log, ProcessOperation op)
         case EnterSleep: log.append("EnterSleep"); break;
         case Schedule:  log.append("Schedule"); break;
         case Wakeup:    log.append("Wakeup"); break;
+        case NewPrio:    log.append("NewPrio"); break;
         default:        log.append("???"); break;
     }
     return log;

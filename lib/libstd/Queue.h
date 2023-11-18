@@ -82,6 +82,37 @@ template <class T, Size N> class Queue : public Container
         return m_array[idx];
     }
 
+    bool putBefore(const T& item, Size pos)
+    {
+        if (m_count >= N || pos > m_count)
+        {
+            return false;
+        }
+
+
+        Size idx = (m_tail + pos) % N;
+
+
+        // Shift all elements after the insert position by one
+        for (Size i = m_count; i > pos; i--)
+        {
+            m_array[(m_tail + i) % N] = m_array[(m_tail + i - 1) % N];
+        }
+
+
+        // insert at indx
+        m_array[idx] = item;
+
+
+        // circular increment 
+        m_head = (m_head + 1) % N;
+        m_count++;
+
+
+        return true;
+
+    }
+
     /**
      * Look if an item exists on the Queue
      *

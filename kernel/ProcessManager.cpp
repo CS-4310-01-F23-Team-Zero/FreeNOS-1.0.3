@@ -97,6 +97,22 @@ Process * ProcessManager::get(const ProcessID id)
     return m_procs.get(id);
 }
 
+ProcessManager::Result ProcessManager::setPriority(const ProcessID id, u8 p)
+{
+
+
+    Process * proc = m_procs.get(id);
+    if (!proc)
+    {
+        FATAL("no process found to run!");
+    }
+    dequeueProcess(proc, true);
+    proc->setPriority(p);
+    enqueueProcess(proc);
+    return Success;
+
+}
+
 void ProcessManager::remove(Process *proc, const uint exitStatus)
 {
     if (proc == m_idle)
@@ -398,7 +414,7 @@ ProcessManager::Result ProcessManager::interruptNotify(const u32 vector)
 
 ProcessManager::Result ProcessManager::enqueueProcess(Process *proc, const bool ignoreState)
 {
-    if (m_scheduler->enqueue(proc, ignoreState) != Scheduler::Success)
+    if (m_scheduler->enqueue(proc, ignoreState,proc->getPriority()) != Scheduler::Success)
     {
         ERROR("process ID " << proc->getID() << " not added to Scheduler");
         return IOError;
@@ -413,7 +429,7 @@ ProcessManager::Result ProcessManager::enqueueProcess(Process *proc, const bool 
 
 ProcessManager::Result ProcessManager::dequeueProcess(Process *proc, const bool ignoreState) const
 {
-    if (m_scheduler->dequeue(proc, ignoreState) != Scheduler::Success)
+    if (m_scheduler->dequeue(proc, ignoreState, proc->getPriority()) != Scheduler::Success)
     {
         ERROR("process ID " << proc->getID() << " not removed from Scheduler");
         return IOError;

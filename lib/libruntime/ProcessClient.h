@@ -71,6 +71,8 @@ class ProcessClient
 
   public:
 
+    Result newPrio(const ProcessID pid, u8 p)const;
+
     /**
      * Get current process identifier
      *

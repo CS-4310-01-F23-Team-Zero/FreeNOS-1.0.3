@@ -1,3 +1,4 @@
+//////////////////////////////
 /*
  * Copyright (C) 2009 Niek Linnenbank
  *
@@ -15,9 +16,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+
 #ifndef __KERNEL_SCHEDULER_H
 #define __KERNEL_SCHEDULER_H
 #ifndef __ASSEMBLER__
+
 
 #include <Vector.h>
 #include <Macros.h>
@@ -25,17 +28,20 @@
 #include "Process.h"
 #include "ProcessManager.h"
 
-/**
- * @addtogroup kernel
- * @{
- */
 
-/**
- * Responsible for deciding which Process may execute on the local Core.
- */
+ /**
+  * @addtogroup kernel
+  * @{
+  */
+
+
+  /**
+   * Responsible for deciding which Process may execute on the local Core.
+   */
 class Scheduler
 {
-  public:
+public:
+
 
     /**
      * Result code
@@ -46,19 +52,23 @@ class Scheduler
         InvalidArgument
     };
 
-  public:
+
+public:
+
 
     /**
      * Constructor function.
      */
     Scheduler();
 
+
     /**
      * Get number of processes on the schedule
      *
      * @return Number of processes on the schedule
      */
-    Size count() const;
+    Size count(u8 priority) const;
+
 
     /**
      * Add a Process to the run schedule.
@@ -68,7 +78,8 @@ class Scheduler
      *
      * @return Result code
      */
-    Result enqueue(Process *proc, bool ignoreState);
+    Result enqueue(Process* proc, bool ignoreState, u8 priority);
+
 
     /**
      * Remove a Process from the run schedule.
@@ -78,24 +89,38 @@ class Scheduler
      *
      * @return Result code
      */
-    Result dequeue(Process *proc, bool ignoreState);
+    Result dequeue(Process* proc, bool ignoreState, u8 priority);
+
 
     /**
      * Select the next process to run.
      *
      * @return Process pointer or NULL if no matching process found
      */
-    Process * select();
+    Process* select();
 
-  private:
+
+private:
+
 
     /** Contains processes ready to run */
-    Queue<Process *, MAX_PROCS> m_queue;
+    Queue<Process*, MAX_PROCS> one_queue;
+    Queue<Process*, MAX_PROCS> two_queue;
+    Queue<Process*, MAX_PROCS> three_queue;
+    Queue<Process*, MAX_PROCS> four_queue;
+    Queue<Process*, MAX_PROCS> five_queue;
+
+
+
+
+
 };
+
 
 /**
  * @}
  */
+
 
 #endif /* __ASSEMBLER__ */
 #endif /* __KERNEL_SCHEDULER_H */

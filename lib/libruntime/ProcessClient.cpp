@@ -24,6 +24,23 @@ const ProcessID ProcessClient::m_pid = ProcessCtl(SELF, GetPID, 0);
 
 const ProcessID ProcessClient::m_parent = ProcessCtl(SELF, GetParent, 0);
 
+ProcessClient::Result ProcessClient::newPrio(const ProcessID pid, u8 p)const {
+    if (p > 5 || p < 1) {
+        return IOError;
+    }
+    u8& ref = p;
+    const API::Result result = ProcessCtl(pid, NewPrio,ref);
+    if (result == API::NotFound) {
+        return NotFound;
+    }
+    else if (result == API::IOError) {
+        return IOError;
+    }
+    else {
+        return Success;
+    }
+}
+
 ProcessID ProcessClient::getProcessID() const
 {
     return m_pid;
